@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+# Checkpoints, datasets and artefacts stay out of git
+*.pt
+*.pth
+*.ckpt
+data/
