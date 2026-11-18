@@ -1,0 +1,7 @@
+# Python 3.10+. Graphviz drawing also needs the Graphviz system package
+# (macOS: brew install graphviz, Debian/Ubuntu: apt install graphviz).
+jupyter>=1.0
+numpy>=1.26
+matplotlib>=3.8
+graphviz>=0.20
+torch>=2.2  # only used to cross-check gradients against PyTorch autograd
